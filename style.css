@@ -1,0 +1,134 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    overflow-x:hidden;
+}
+.header {
+    
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/hitk.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-left: 3px;
+}
+
+.lk{
+    background-color: rgb(230, 240, 240);
+    padding: 10px;
+}
+
+#sb
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+}
+
+/*done by me*/
+.a
+{
+    background-color:blue;
+}
+
+#x1{
+color:white;
+font-size: 20px;
+
+float:right;
+}
+#x1 img
+{
+    border-radius: 50%;
+}
+#bang
+{
+    color: antiquewhite;
+    background-color: rgb(119, 16, 16);
+}
+.text-box
+{
+    background-color: #00b8ff;
+    height: 28vh;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+#y
+{
+    padding-top: 15px;
+    float:right;
+    padding-right: 15px;
+    color:antiquewhite;
+    font-size: 2.5em;
+}
+#dd
+{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    background-color: rgb(247, 247, 247);
+}
+@media(max-width:970px)
+{
+    #dd
+    {
+        display: block;
+        
+    }
+   video
+   {
+    width: 100%;
+   }
+}
+#c
+{
+    width:30%;
+    padding: 6px;
+    font-size: 2em;
+}
+@media (max-width:1348px) {
+    #c
+    {
+        font-size: 1.5em;
+    }
+    
+}
+table,th,td{
+    border:2.5px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: aquamarine;
+}
+caption
+{
+    color: red;
+}
+td
+{
+    background-color: yellow;
+}
+#box
+{
+    display: flex;
+    font-size: 2em;
+    padding: 2px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+@media(max-width:970px)
+{
+    #box
+    {
+        display: block;
+    }        
+
+}
+#kolk
+{
+    font-size: 1em;
+}

@@ -57,9 +57,16 @@ float:right;
 .text-box
 {
     background-color: #00b8ff;
-    height: 28vh;
+    height: 15vh;
     padding-top: 10px;
     padding-left: 15px;
+}
+@media(max-width:600px)
+{
+    .text-box
+    {
+        height:30vh;
+    }
 }
 #y
 {

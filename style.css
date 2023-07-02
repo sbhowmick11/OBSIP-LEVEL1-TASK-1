@@ -75,7 +75,7 @@ float:right;
     display: flex;
     background-color: rgb(247, 247, 247);
 }
-@media(max-width:970px)
+@media(max-width:1032px)
 {
     #dd
     {

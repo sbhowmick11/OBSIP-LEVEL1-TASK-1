@@ -14,6 +14,13 @@
     overflow: hidden;
     padding-left: 3px;
 }
+@media (max-width: 768px) {
+  #c {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
 
 .lk{
     background-color: rgb(230, 240, 240);
